@@ -4,9 +4,9 @@ class Restic < Formula
   desc "restic backup program"
   homepage "https://restic.github.io/"
 
-  url "https://github.com/restic/restic/archive/v0.3.0.tar.gz"
-  sha256 "1a8cf9e6b7e8ee2c26f4e1921fd6aa1e834ae17b0b51c69ada85f26d12ddd7ed"
-  version "0.3.0"
+  url "https://github.com/restic/restic/archive/v0.4.0.tar.gz"
+  sha256 "746dbc7b73f5a542be57b71714b243266a011f1d750f56f5100c08a59df1aeac"
+  version "0.4.0"
 
   head "https://github.com/restic/restic.git"
 
