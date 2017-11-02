@@ -10,12 +10,11 @@ class Restic < Formula
 
   head "https://github.com/restic/restic.git"
 
-  depends_on 'go'
+  depends_on "go" => :build
 
   def install
     system "make"
-    system "mkdir #{prefix}/bin"
-    system "cp restic #{prefix}/bin"
+    bin.install "restic"
   end
 
   test do
